@@ -1,0 +1,146 @@
+/* Estilo base */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Estilos para cada página (opcional) */
+
+#sobre_mim p {
+  /* Estilos para o parágrafo da página sobre mim */
+}
+
+#contato form {
+  margin: 20px auto;
+  width: 500px;
+}
+
+#contato label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contato input,
+#contato textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+#contato button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+
+.project img {
+  width: 40%;
+  margin-right: 10px;
+}
+
+.project p {
+  flex: 1;
+}
+
+.project a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Responsividade - Tablets (768px - 1024px) */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .project {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  .project img {
+    width: 30%;
+  }
+}
+
+/* Responsividade - Smartphones em Retrato (até 480px) */
+
+@media (max-width: 480px) {
+  nav li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .project {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .project img {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+  .project img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
